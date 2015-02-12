@@ -1,0 +1,45 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background: url("../images/sfondo.jpg")
+}
+
+.btn-primary{
+  background-color: #23AAFD;
+  border-radius: 2px;
+  transition: background-color ease 0.7s;
+}
+
+.btn-primary:hover{
+  background-color: #50B6F5;
+}
+
+.vertical-spacer{
+  height: 5em;
+}
+
+.feature{
+  font-weight: 300;
+}
+
+.feature img{
+  width: 100px;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+footer{
+  background-color: #222222;
+  color: white;
+  padding: 30px 0;
+}
+
+footer a {
+  color: rgb(200, 200, 200);
+  font-size: 30px;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: white;
+}

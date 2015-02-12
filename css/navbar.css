@@ -1,0 +1,29 @@
+.navbar-white{
+  background-color: white;
+}
+
+.navbar-white .navbar-brand{
+  font-family: 'Lobster', cursive;
+}
+
+.navbar-white .navbar-brand,
+.navbar-white .navbar-nav > li > a {
+  color: red;
+  line-height: 40px;
+}
+
+
+.navbar-white .navbar-nav > li > a:hover,
+.navbar-white .navbar-nav > li > a:active,
+.navbar-white .navbar-nav > li > a:focus,
+.navbar-white .navbar-nav > .open > a,
+.navbar-white .navbar-nav > .open > a:hover,
+.navbar-white .navbar-nav > .open > a:focus {
+  color: orange;
+}
+
+.navbar-white .navbar-brand:hover,
+.navbar-white .navbar-brand:active,
+.navbar-white .navbar-brand:focus {
+  color: orange;
+}
