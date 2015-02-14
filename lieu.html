@@ -1,0 +1,50 @@
+---
+layout: default
+title: Le Lieu
+---
+
+<div class="vertical-spacer"></div>
+<div class="container">
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <div class="catchphrase">
+        <p>
+          Rendez-vous le <strong>14 Mars 2015 (3/14/15)</strong> à <strong>9h</strong> au <strong>MuCEM</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <div id="map" style="width: 100%; height: 400px;"></div>
+
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+      <script type="text/javascript">
+        var myOptions = {
+            zoom: 14,
+            center: new google.maps.LatLng(48.852937, 2.364178),
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            styles: [{"featureType":"water","stylers":[{"color":"#46bcec"},{"visibility":"on"}]},{"featureType":"landscape","stylers":[{"color":"#f2f2f2"}]},{"featureType":"road","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]}]
+        };
+
+        new google.maps.Map(document.getElementById('map'), myOptions);
+      </script>
+    </div>
+  </div>
+</div>
+<div class="vertical-spacer"></div>
+<div class="container">
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <div class="catchphrase">
+        <p>
+          Comment se rendre au <strong>MuCEM</strong>?
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
