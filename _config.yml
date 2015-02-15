@@ -1,9 +1,9 @@
 markdown: redcarpet
 # Site settings
-title: Pi Day - Lajournée de Pi
+title: Pi Day - La journée de Pi
 email: pidaymars@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  All you need to know about me and my research work!
+  Site officiel de la journée de Pi à Marseille. Retrouvez toutes les informations utiles de ce magnifique évènement!
 baseurl: "/piday.github.io"
 #url: "http://Pierre-Olivier.goffard.me" # the base hostname & protocol for your site
 social:
