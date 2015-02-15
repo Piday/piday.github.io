@@ -3,9 +3,9 @@ markdown: redcarpet
 title: Pi Day - Lajournée de Pi
 email: pidaymars@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Le site officiel de la journée de Pi à Marseille. Retrouvez toutes les infos sur cette grande journée des mathématiques à Marseille
-baseurl: ""
-url: "http://piday.fr" # the base hostname & protocol for your site
+  All you need to know about me and my research work!
+baseurl: "/jekyll-piday"
+#url: "http://Pierre-Olivier.goffard.me" # the base hostname & protocol for your site
 social:
   - network: github
     username: LaGauffre
