@@ -18,3 +18,19 @@
   name: Haribo
   website: https://www.haribo.com/frFR/accueil.html
   acronym: Haribo
+- filename: amu.jpg
+  name: Ecole Doctorale en Mathématiques et en Informatique de Marseille
+  website: http://ed184.lif.univ-mrs.fr/doku.php
+  acronym: ED184
+- filename: amu.jpg
+  name: Institut de Mathématiques de Marseille
+  website: https://www.i2m.univ-amu.fr
+  acronym: I2M
+- filename: amu.jpg
+  name: Collège Doctorale Aix-Marseille Université
+  website: http://www.adum.fr/as/ed/page.pl?site=CDAMU&page=presentation
+  acronym: College
+- filename: fruman.jpg
+  name: Fédération de Recherche des Unités de Mathématiques de Marseille
+  website: http://frumam.cnrs-mrs.fr
+  acronym: FRUMAN
