@@ -117,3 +117,26 @@ body {
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+.thumbnail {
+  display: block;
+  margin-bottom: 20px;
+  height: 350px;
+}
+.thumbnail>img, .thumbnail a>img {
+  display: block;
+  height:150px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.thumbnail h2 {
+  background: rgba(0, 0, 0, .4);
+  display: inline-block;
+  padding: 0.2em;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 2em;
+}

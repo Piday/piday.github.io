@@ -3,3 +3,32 @@ layout: default
 title: Pi Day - Partenaires
 permalink: /Partenaires/
 ---
+
+<div class="vertical-spacer"></div>
+<div class="container">
+  <div class="row text-center">
+    <div class="col-xs-12">
+      <div class="catchphrase">
+        <p>
+          Un grand <strong>Merci</strong> à nos <strong>Partenaires</strong>!
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+
+    {% for partenaire in site.data.partenaires %}
+
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="{{ "/logo-partenaire/" | prepend: site.baseurl | append: partenaire.filename }}" alt="{{ partenaire.acronym }}" width="300" height="500">
+        <div class="caption">
+          <h3>{{ partenaire.name }}</h3>
+          <p>...</p>
+          <p><a href="{{ partenaire.website }}">Site web</a> </p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
