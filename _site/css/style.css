@@ -8,8 +8,12 @@ body {
 /* Merdes rajoutées par Joël */
 
 li {
+  width : 60%;
   list-style: none;
+  padding: 1em;
+  text-align: left;
 }
+
 
 /* Footer */
 
