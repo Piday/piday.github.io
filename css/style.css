@@ -7,8 +7,10 @@ body {
 
 /* Merdes rajoutées par Joël */
 
-li {
-  width : 60%;
+ul.programme li {
+  width : 40%;
+  margin-right: 30%;
+  margin-left: 30%;
   list-style: none;
   padding: 1em;
   text-align: left;
