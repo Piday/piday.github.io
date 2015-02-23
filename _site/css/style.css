@@ -5,6 +5,11 @@ body {
   font-family: 'Open Sans';
 }
 
+/* Merdes rajoutées par Joël */
+
+li {
+  list-style: none;
+}
 
 /* Footer */
 
