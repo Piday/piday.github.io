@@ -15,6 +15,12 @@ ul.programme li {
   text-align: left;
 }
 
+h3.programme {
+	font-size : 120%;
+    width : 45%;
+    margin: 0 auto;
+}
+
 
 /* Footer */
 
