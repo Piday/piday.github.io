@@ -23,7 +23,9 @@ ul.programme li {
 
 h3.programme {
 	font-size : 120%;
-    width : 40%;
+	text-align : left;
+    width : 35%;
+	padding : 0;
     margin: 0 auto;
 }
 
