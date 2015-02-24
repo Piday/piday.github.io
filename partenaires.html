@@ -21,11 +21,11 @@ permalink: /Partenaires/
 
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="{{ "/logo-partenaire/" | prepend: site.baseurl | append: partenaire.filename }}" alt="{{ partenaire.acronym }}" width="300" height="500">
+        <a href="{{ partenaire.website }}">
+			<img src="{{ "/logo-partenaire/" | prepend: site.baseurl | append: partenaire.filename }}" alt="{{ partenaire.acronym }}" width="270">
+		</a>
         <div class="caption">
-          <h3>{{ partenaire.name }}</h3>
-          <p>...</p>
-          <p><a href="{{ partenaire.website }}">Site web</a> </p>
+          <p>{{ partenaire.name }}</p>
         </div>
       </div>
     </div>
