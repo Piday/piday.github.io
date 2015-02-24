@@ -9,8 +9,7 @@ body {
 
 ul.programme li {
   width : 40%;
-  margin-right: 30%;
-  margin-left: 30%;
+  margin: 0 auto;
   list-style: none;
   padding: 1em;
   text-align: left;
