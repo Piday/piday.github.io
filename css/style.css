@@ -21,6 +21,11 @@ ul.programme li {
 	margin-right : 0.5em;
 }
 
+h1.programme {
+	margin-top : 1em;
+	margin-bottom : 2em;
+}
+
 h3.programme {
 	font-size : 120%;
 	text-align : left;
