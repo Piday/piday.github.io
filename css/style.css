@@ -10,14 +10,19 @@ body {
 ul.programme li {
   width : 40%;
   margin: 0 auto;
+  color: #333;
   list-style: none;
   padding: 1em;
   text-align: left;
 }
 
+.horaire {
+	color: #000;
+}
+
 h3.programme {
 	font-size : 120%;
-    width : 45%;
+    width : 40%;
     margin: 0 auto;
 }
 
