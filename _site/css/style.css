@@ -6,14 +6,54 @@ body {
 }
 
 /* Merdes rajoutées par Joël */
+img.picture {
+	display: block;
+	max-width : 80%;
+	margin: 0 auto 0.5em;
+}
+
+ul.programme {
+	padding : 0;
+	margin : 0;
+}
+
+div.programme {
+    width : 90%;
+    max-width : 500px;
+    margin: 0 auto;
+}
 
 ul.programme li {
-  width : 40%;
-  margin-right: 30%;
-  margin-left: 30%;
+  margin: 0;
+  color: #666;
   list-style: none;
-  padding: 1em;
+  padding: 0.6em 0;
   text-align: left;
+}
+
+ul.programme blockquote {
+	color: #999;
+	font-size : 0.9em;
+	margin-left: 1em;
+	border: none;
+}
+
+a.horaire, a.horaire:hover, a.horaire:visited {
+	color: #000;
+	margin-right : 0.5em;
+	text-decoration: none;
+}
+
+
+h1.programme {
+	margin: 1.5em auto;
+}
+
+h3.programme {
+	font-size : 120%;
+	text-align : left;
+	padding : 0;
+    margin: 0;
 }
 
 
@@ -92,6 +132,7 @@ ul.programme li {
   font-size: 24px;
   font-weight: 300;
   letter-spacing: 3px;
+  margin : 1em 0;
 }
 /* How to override the default Bootstrap colors */
 
@@ -132,12 +173,16 @@ ul.programme li {
 .thumbnail {
   display: block;
   margin-bottom: 20px;
-  height: 350px;
+  height: 220px;
+  text-align: center;
+  /* écrasement du style préexistant */
+  background-color: transparent;
+  border : 0;
 }
 .thumbnail>img, .thumbnail a>img {
   display: block;
-  height:150px;
-  max-width: 100%;
+  max-height:120px;
+  max-width: 95%;
   margin-right: auto;
   margin-left: auto;
 }

@@ -8,6 +8,31 @@
 
         <title>Pi Day - Le Programme</title>
 
+        <meta name="description" content="Site officiel de la journée de Pi à Marseille. Retrouvez toutes les informations utiles de ce magnifique évènement!
+">
+        <!-- Meta tags pour fb -->
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Pi Day - La Journée de Pi à Marseille" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.piday.fr" />
+    <!-- Facebook image must be at least 600x315px -->
+    <meta property="og:image" content="http://91.68.209.10/bmi/www.piday.fr/images/tarte_anna.jpg" />
+    <meta property="og:description" content="Rendez-vous le 14 Mars 2015 (3.14.15) à 9h à Marseille au MuCEM pour une inoubliable journée mathématique, ludique, didactique, romantique, gastronomique, mélodique, magique !." />
+    <meta property="og:site_name" content="Pi Day - La journée de Pi à Marseille" />
+
+
+
+    <!-- Meta tags pour twitter -->
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@Piday">
+    <meta name="twitter:url" content="http://www.piday.fr">
+    <meta name="twitter:title" content="Pi Day - La Journée de Pi à Marseille">
+    <meta name="twitter:description" content="Rendez-vous le 14 Mars 2015 (3.14.15) à 9h à Marseille au MuCEM pour une inoubliable journée mathématique, ludique, didactique, romantique, gastronomique, mélodique, magique !.">
+    <!-- Twitter Summary card images must be at least 200x200px -->
+    <meta name="twitter:image" content="http://91.68.209.10/bmi/www.piday.fr/images/tarte_anna.jpg"">
+
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
@@ -42,17 +67,17 @@
               <a class="page-link" href="/">Home</a>
             </li>
             <li>
-              <a class="page-link" href="/Lieu/">Le lieu</a>
-            </li>
-            <li>
               <a class="page-link" href="/Programme/">Programme</a>
            </li>
            <li>
-           <a href="/pi_day_marseille.pdf" class="page-link">Concept</a>
+           <a href="/Concept/" class="page-link">Concept</a>
            </li>
-            <li>
+           <li>
+             <a class="page-link" href="/Lieu/">Le lieu</a>
+           </li>
+           <li>
               <a class="page-link" href="/Partenaires/">Partenaires</a>
-            </li>
+           </li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -62,76 +87,85 @@
 <div class="container">
   <div class="row text-center">
     <div class="col-sm-12">
-       <h1>Programme de la journée</h1>
+       <h1 class = "programme">Programme de la journée</h1>
     </div>
   </div>
   <div class="row text-center">
     <div class="col-sm-12">
-      <h3>Matinée (dans l'auditorium Germaine Tillion)</h3>
+	<div class="programme">
+      <h3 class = "programme">Matinée (dans l'auditorium Germaine Tillion)</h3>
       <ul class = "programme">
         <li>
           <p>
-        8h15: Accueil des participants: Café + viennoiseries
+        <a class = "horaire" name = "cafe">8h15 :</a> Accueil des participants: Café + viennoiseries
         </p>
         </li>
         <li>
           <p>
-          9h00: Introduction musicale par <a href="http://emsud.fr/">l’Ensemble Musical du Sud</a> et les Black Eyed π.
+          <a class = "horaire" name = "concert">9h00 :</a> Introduction musicale par <a href="http://emsud.fr/">l’Ensemble Musical du Sud</a> <!-- et les Black Eyed π .-->
           </p>
         </li>
         <li>
           <p>
-          9h45: L’exploration des nombres à l’aide d’images par Simon Plouffe
+          <a class = "horaire" name = "plouffe">9h45 :</a> L’exploration des nombres à l’aide d’images par <a href="http://fr.wikipedia.org/wiki/Simon_Plouffe">Simon Plouffe</a>
+		  <blockquote>Nous verrons une série d'explorations des nombres réels avec l'aide d'outils avancés. Ces outils sont suffisamment puissants pour pouvoir émettre des hypothèses et quelques calculs. Cette approche s'inscrit dans le contexte des mathématiques expérimentales. La conférence s'adresse à tous de 0,7 à 77,7 ans.</blockquote>
           </p>
         </li>
         <li>
           <p>
-          10h30: Qui a chassé l'Hamadryade du bois ? (Trois ou quatre mots sur trois fois Rien) par François Sauvageot
+          <a class = "horaire" name = "sauvageot">10h30 :</a> Qui a chassé l'Hamadryade du bois ? <em>Trois ou quatre mots sur trois fois rien</em> par <a href="http://www.mathom.fr/sauvageot">François Sauvageot</a>
           </p>
         </li>
         <li>
           <p>
-          11h15: Les Mathématiques et le sexe par Clio Cresswell
+          <a class = "horaire" name = "cresswell">11h15 :</a> Les Mathématiques et le sexe par <a href="http://www.celebrityspeakers.com.au/clio-cresswell/">Clio Cresswell</a>
+		  <blockquote>Le titre vous paraît accrocheur ? Je l’espère, parce que c’est à cet extrême que l’on peut trouver les mathématiques aujourd'hui. Venez voir toutes les équations!</blockquote>
           </p>
         </li>
       </ul>
 
       <hr>
-      <h3>Concours de Tartes (Dans le salon VIP sur la Terrasse du MuCem</h3>
-      <ul class="programme">
+      <h3 class = "programme">Concours de Tartes (Dans le salon VIP sur la Terrasse du MuCem)</h3>
+      <ul class = "programme">
+		<li><em>Apportez votre tarte pour une chance de gagner de nombreux cadeaux dont un cours de pâtisserie à l'<a href="http://www.atelierdeschefs.fr">atelier des chefs</a>!</em></li>
         <li>
           <p>
-          12h30: Dégustation des tartes
+          <a class = "horaire" name = "tartes">12h30 :</a> Dégustation des tartes
           </p>
         </li>
         <li>
           <p>
-          13h45: Remise des prix
+          <a class = "horaire" name = "prix">13h45 :</a> Remise des prix
           </p>
         </li>
+	</ul>
+	<h3 class = "programme">Ateliers et animations (Dans le salon VIP sur la Terrasse du MuCem)</h3>
+	<ul class = "programme">
+		<li><em>Les ateliers permanents sont aussi ponctués par des animations de 20 minutes intervenant à heure fixe.</em></li>
         <li>
           <p>
-        14h: Début des ateliers et animations par les doctorants de l’Ecole Doctorale Maths-Info 184. Les ateliers permanents sont aussi ponctués par des animations de 20 minutes intervenant à heure fixe.
+        <a class = "horaire" name = "ateliers">14h :</a> Début des ateliers permanents <!-- et animations par les doctorants de l’Ecole Doctorale Maths-Info 184 .-->
       </p>
         </li>
         <li>
           <p>
-        15h: Un peu de Mathémagie!
+        <a class = "horaire" name = "magie">15h :</a> Un peu de Mathémagie!
       </p>
         </li>
         <li>
           <p>
-        16h: Animation de mathématique et musique
+        <a class = "horaire" name = "musique">16h :</a> Animation de mathématique et musique
       </p>
         </li>
         <li>
           <p>
-        17h: Les Mathématiques nous transportent en ... cuisine
+        <a class = "horaire" name = "cuisine">17h :</a> Les Mathématiques nous transportent en ... cuisine
       </p>
         </li>
       </ul>
 
     </div>
+	</div>
     <!--  <div class="col-sm-6">
         <img src="/images/Tarte.JPG" alt="Pie" height="400" width="600"/>
       </div>-->
@@ -161,11 +195,11 @@
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
-              <li>
+              <!-- <li>
                 <a href="https://youtube.com/iceme">
                   <i class="fa fa-youtube"></i>
                 </a>
-              </li>
+              </li> -->
             </ul>
           </div>
           <div class="col-lg-9">
