@@ -150,7 +150,7 @@ h3.programme {
 .thumbnail {
   display: block;
   margin-bottom: 20px;
-  height: 350px;
+  height: 200px;
 }
 .thumbnail>img, .thumbnail a>img {
   display: block;
