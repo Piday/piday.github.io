@@ -26,10 +26,12 @@ ul.programme li {
   text-align: left;
 }
 
-.horaire {
+a.horaire, a.horaire:hover, a.horaire:visited {
 	color: #000;
 	margin-right : 0.5em;
+	text-decoration: none;
 }
+
 
 h1.programme {
 	margin: 1.5em auto;
