@@ -162,6 +162,9 @@ h3.programme {
   display: block;
   margin-bottom: 20px;
   height: 220px;
+  /* écrasement du style préexistant */
+  background-color: transparent;
+  border : 0;
 }
 .thumbnail>img, .thumbnail a>img {
   display: block;
