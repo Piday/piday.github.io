@@ -27,8 +27,10 @@ ul.programme li {
 }
 
 ul.programme blockquote {
+	color: #999;
 	font-size : 0.9em;
 	margin-left: 1em;
+	border: none;
 }
 
 a.horaire, a.horaire:hover, a.horaire:visited {
