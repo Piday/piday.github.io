@@ -118,6 +118,7 @@ h3.programme {
   font-size: 24px;
   font-weight: 300;
   letter-spacing: 3px;
+  margin : 1em 0;
 }
 /* How to override the default Bootstrap colors */
 
