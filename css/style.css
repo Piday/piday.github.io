@@ -6,6 +6,10 @@ body {
 }
 
 /* Merdes rajoutées par Joël */
+img.picture {
+	max-width : 80%;
+	margin: 0 auto;
+}
 
 ul.programme {
 	padding : 0;
