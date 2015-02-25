@@ -12,10 +12,14 @@ ul.programme {
 	margin : 0;
 }
 
+div.programme {
+    width : 80%;
+    max-width : 700px;
+    margin: 0 auto;
+}
+
 ul.programme li {
-  width : 80%;
-  max-width : 700px;
-  margin: 0 auto;
+  margin: 0;
   color: #666;
   list-style: none;
   padding: 0.6em 0;
@@ -28,17 +32,14 @@ ul.programme li {
 }
 
 h1.programme {
-	width : 60%;
 	margin: 1.5em auto;
 }
 
 h3.programme {
 	font-size : 120%;
 	text-align : left;
-    width : 80%;
-    max-width : 700px;
 	padding : 0;
-    margin: 0 auto;
+    margin: 0;
 }
 
 
