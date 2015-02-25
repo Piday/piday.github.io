@@ -2,14 +2,14 @@
   name: Ecole Doctorale en Mathématiques et en Informatique de Marseille
   website: http://ed184.lif.univ-mrs.fr/doku.php
   acronym: ED184
-- filename: amu.jpg
-  name: Institut de Mathématiques de Marseille
-  website: https://www.i2m.univ-amu.fr
-  acronym: I2M
 - filename: lif.gif
   name: Laboratoire d'Informatique Fondamentale de Marseille
   website: http://www.lif.univ-mrs.fr
   acronym: LIF
+- filename: amu.jpg
+  name: Institut de Mathématiques de Marseille
+  website: https://www.i2m.univ-amu.fr
+  acronym: I2M
 - filename: inria.png
   name: Institut Nationale de Recherche en Informatique et en Automatique
   website: http://www.inria.fr
