@@ -26,6 +26,11 @@ ul.programme li {
   text-align: left;
 }
 
+ul.programme blockquote {
+	font-size : 0.9em;
+	margin-left: 1em;
+}
+
 a.horaire, a.horaire:hover, a.horaire:visited {
 	color: #000;
 	margin-right : 0.5em;
