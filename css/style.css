@@ -162,6 +162,7 @@ h3.programme {
   display: block;
   margin-bottom: 20px;
   height: 220px;
+  text-align: center;
   /* écrasement du style préexistant */
   background-color: transparent;
   border : 0;
