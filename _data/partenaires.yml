@@ -1,4 +1,4 @@
-- filename: amu.jpg
+- filename: amu.png
   name: Ecole Doctorale en Mathématiques et en Informatique de Marseille
   website: http://ed184.lif.univ-mrs.fr/doku.php
   acronym: ED184
@@ -6,7 +6,7 @@
   name: Laboratoire d'Informatique Fondamentale de Marseille
   website: http://www.lif.univ-mrs.fr
   acronym: LIF
-- filename: amu.jpg
+- filename: amu.png
   name: Institut de Mathématiques de Marseille
   website: https://www.i2m.univ-amu.fr
   acronym: I2M
@@ -14,11 +14,11 @@
   name: Institut Nationale de Recherche en Informatique et en Automatique
   website: http://www.inria.fr
   acronym: INRIA
-- filename: logo_smai.jpg
+- filename: smai.png
   name: Société des Mathématiques Appliquées et Industrielles
   website: http://smai.emath.fr
   acronym: SMAI
-- filename: logo_grandluminy_1.jpg
+- filename: grandluminy.png
   name: Grand Luminy Technopole
   website: http://www.grandluminy.com
   acronym: Grand Luminy
@@ -26,15 +26,15 @@
   name: Fédération de Recherche des Unités de Mathématiques de Marseille
   website: http://frumam.cnrs-mrs.fr
   acronym: FRUMAN
-- filename: logos-mep-emevia-ok2.jpg
+- filename: mep.png
   name: MEP - Sécurité Sociale et mutuelle des étudiants
   website: http://www.mep.fr
   acronym: MEP
-- filename: Haribo-logo-01.jpg
+- filename: haribo.png
   name: Haribo
   website: https://www.haribo.com/frFR/accueil.html
   acronym: Haribo
-- filename: amu.jpg
+- filename: amu.png
   name: Collège Doctoral Aix-Marseille Université
   website: http://www.adum.fr/as/ed/page.pl?site=CDAMU&page=presentation
   acronym: College
