@@ -50,6 +50,10 @@
   name: Kubii
   website: http://www.kubii.fr
   acronym: Kubii
+- filename: dunod.png
+  name: Dunod
+  website: http://http://www.dunod.com
+  acronym: Dunod
 - filename: marseille.jpg
   name: Ville de Marseille
   website: http://www.marseille.fr
