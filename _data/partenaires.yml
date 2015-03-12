@@ -57,6 +57,9 @@
 - filename: marseille.jpg
   name: Ville de Marseille
   website: http://www.marseille.fr
+- filename: animath.png
+  name: Animath
+  website: http://www.animath.fr
 - filename: metsens.png
   name: Metsens
   website: http://metsens.fr/
