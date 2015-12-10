@@ -1,0 +1,158 @@
+---
+layout: default
+title: Pi Day - Archives
+permalink: /Archives/
+---
+
+<div class="vertical-spacer"></div>
+<div class="container">
+	<div class="row text-center">
+    	<div class="col-sm-12">
+			<div class="catchphrase">
+        		<p>
+        			Rendez-vous à Marseille le samedi 14 mars au MuCEM. Un endroit <strong>transcendant</strong> pour une constante <strong>irrationnelle</strong> !
+			</div>
+		</div>
+	</div>
+<div class="vertical-spacer"></div>
+<div class="row">
+	<div class="col-sm-6">Bla</div>
+    <div class="col-sm-6">
+        <img src="/images/mucem.jpg" alt="MuCEM" class="picture"/>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <div id="map" style="width: 100%; height: 350px;"></div>
+
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+      <script type="text/javascript">
+        var myOptions = {
+            zoom: 14,
+            center: new google.maps.LatLng(43.2979287, 5.3614760),
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            styles: [{"featureType":"water","stylers":[{"color":"#46bcec"},{"visibility":"on"}]},{"featureType":"landscape","stylers":[{"color":"#f2f2f2"}]},{"featureType":"road","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]}]
+        };
+
+        new google.maps.Map(document.getElementById('map'), myOptions);
+      </script>
+    </div>
+    <div class="col-sm-6">
+      <p></p>
+      <p><strong>Accès:</strong></p>
+      <p><strong>Entrée basse fort Saint-Jean</strong></p><p> <i class="fa fa-map-marker"></i> 201 quai du port,13002 Marseille</p>
+      <p></i><strong>Entrée panier</strong></p>
+      <p><i class="fa fa-map-marker"></i> Parvis de l'église Saint-Laurent, esplanade de la Tourette, 13002 Marseille</p>
+      <p></i><strong>Entrée J4</strong></p>
+      <p><i class="fa fa-map-marker"></i> 7 Promenade Robert Laffont, 13002 Marseille</p>
+
+
+    </div>
+  </div>
+</div>
+<div class="vertical-spacer"></div>
+<div class="container">
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <div class="catchphrase">
+        <p>
+          Comment se rendre au <strong>MuCEM</strong>?
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+      <div class="row text-center">
+        <div class="col-sm-6 col-md-3">
+          <div class="feature">
+            <div class="feature-picture">
+              <img src="{{ "/images/subway.png" | prepend: site.baseurl }}" width="96">
+            </div>
+              <p>En <strong>Metro</strong>,</p>
+              <p style="text-align: left;"><strong>ligne 1</strong>, arrêt Vieux Port.</p>
+              <p style="text-align: left;"><strong>ligne 2</strong>, arrêt Joliette.</p>
+              <p style="text-align: left;">Plus d'infos, <a href="http://www.rtm.fr">RTM</a>.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="feature">
+            <img src="{{ "/images/Bus.png" | prepend: site.baseurl }}" width="96">
+            <p>En <strong>Bus</strong>,</p>
+            <p style="text-align: left;"><strong>ligne 82 et 82s</strong>, arrêt Littoral Major ou Fort Saint-Jean.</p>
+            <p style="text-align: left;"><strong>ligne 60</strong>, arrêt Littoral Major ou Fort Saint-Jean.</p>
+            <p style="text-align: left;"><strong>ligne 49</strong>, arrêt Littoral Major, Fort Saint-Jean et Eglise Saint-Laurent.
+            </p>
+            <p style="text-align: left;">Plus d'infos, <a href="http://www.rtm.fr">RTM</a>.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="feature">
+            <img src="{{ "/images/bicicle.png" | prepend: site.baseurl }}" width="96">
+            <p>
+              En <strong>vélo</strong>,
+            </p>
+            <p style="text-align: left;"><strong>Station n°2179</strong>, Quai du port.
+            </p>
+            <p style="text-align: left;"><strong>Station n°2031</strong>, Jolliette.
+            </p>
+            <p style="text-align: left;"><strong>Station n°2210</strong>, Esplanade du J4.
+            </p>
+            <p style="text-align: left;">Plus d'infos, <a href="http://www.levelo-mpm.fr">Velib</a> ( NON!!! Il s'appelle pas comme ça à Marseille, parisien que t'y es!).</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="feature">
+            <img src="{{ "/images/Boat.png" | prepend: site.baseurl }}" width="96">
+            <p> En <strong>Bateau</strong>,</p>
+              <p style="text-align: left;">le MuCEM se trouve à proximité des embarcadères pour la Corse et l'Algérie.</p>
+              <p style="text-align: left;">plus d'infos, <a href="http://www.sncm.fr/sw/consumer.index.do?locale=fr_FR&languageCode=FRA">SNCM</a>.
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-6 col-md-3">
+          <div class="feature">
+            <div class="feature-picture">
+              <img src="{{ "/images/Avion.png" | prepend: site.baseurl }}" width="96">
+            </div>
+              <p>En <strong>Avion</strong>,</p>
+              <p style="text-align: left;">Navette express entre l'aéroport MPM et la gare de Marseille Saint-Charles.
+              <p style="text-align: left;">Plus d'infos, <a href="http://www.navettemarseilleaeroport.com">Navette aéroport</a>.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="feature">
+            <img src="{{ "/images/Train.png" | prepend: site.baseurl }}" width="96">
+            <p>En <strong>Train</strong>,</p>
+            <p style="text-align: left;">Accès direct par le métro ligne 1 ou 2.</p>
+            <p style="text-align: left;">Plus d'infos, <a href="http://www.rtm.fr">RTM</a>.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="feature">
+            <img src="{{ "/images/Voiture.png" | prepend: site.baseurl }}" width="96">
+            <p>
+              En <strong>Voiture</strong>,
+            </p>
+            <p style="text-align: left;">Suivez les panneaux Marseille, le mieux c'est de prendre l'A55.</p>
+            <p style="text-align: left;">Des <strong>Parkings</strong> <a href="http://www.vincipark.com/fr/parkings/vieux-port-fort-saint-jean-13002800">Vinci</a> et <a href="http://www.q-park.fr/language/nl-nl/fr/se-garer-chez-q-park/parkings-par-ville/marseille">QPark</a> pour se garer et y laisser un bras.
+            </p>
+            <p style="text-align: left;">Pensez au <a href="http://www.covoiturage.fr">Covoiturage</a>, c'est économique et écologique.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="feature">
+            <img src="{{ "/images/Pieds.png" | prepend: site.baseurl }}" width="96">
+            <p> A <strong>Pieds</strong>,</p>
+              <p style="text-align: left;">plus d'infos, <a href="http://fr.wikipedia.org/wiki/Marche_à_pied">La marche à pieds</a>.
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
