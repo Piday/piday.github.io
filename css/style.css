@@ -38,7 +38,7 @@ ul.programme blockquote {
 	border: none;
 }
 
-a.horaire, a.horaire:hover, a.horaire:visited {
+span.horaire, a.horaire, a.horaire:hover, a.horaire:visited {
 	color: #000;
 	margin-right : 0.5em;
 	text-decoration: none;
