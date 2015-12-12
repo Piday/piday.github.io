@@ -1,7 +1,8 @@
 /* General classes for page */
 
 body {
-  background-image: url("../images/grid.jpg");
+	background-color: #fff;
+  /*background-image: url("../images/grid.jpg");*/
   font-family: 'Open Sans';
 }
 
