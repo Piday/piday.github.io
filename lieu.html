@@ -53,8 +53,28 @@ permalink: /Lieu/
         var marker = new google.maps.Marker({
         	map: map,
         	position: {lat: 43.292537, lng: 5.367854},
-        	title: 'Hello World!'
+        	title: 'Pi day!'
         });}
+        
+  
+  
+      var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">Pi Day</h1>'+
+      '<div id="bodyContent">'+
+      '<p>Venez nombreux le 14 mars 2016 au Théâtre National de La Criée. Début du spectacle à 19h30</p>'+
+      '</div>'+
+      '</div>';
+
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
+
+  marker.addListener('click', function() {
+    infowindow.open(map, marker);
+  });
+
       </script>
     </div>
     <div class="col-sm-6">
