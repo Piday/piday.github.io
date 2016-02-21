@@ -90,6 +90,7 @@ h3.programme {
 
 .wrapper {
   background-image: url('../images/background/background.jpg');
+  background-position: center;
   height: 600px;
   background-size: cover;
   padding-top: 150px;
