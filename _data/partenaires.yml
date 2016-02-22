@@ -2,6 +2,10 @@
   name: Ecole Doctorale en Mathématiques et en Informatique de Marseille (ED 184)
   website: http://ed184.lif.univ-mrs.fr/doku.php
   acronym: ED184
+- filename: labex.png
+  name: Laboratoire d'Excellence Archimède
+  website: http://labex-archimede.univ-amu.fr
+  acronym: LabEx
 - filename: lif.gif
   name: Laboratoire d'Informatique Fondamentale de Marseille
   website: http://www.lif.univ-mrs.fr
@@ -14,14 +18,14 @@
   name: Société des Mathématiques Appliquées et Industrielles
   website: http://smai.emath.fr
   acronym: SMAI
-- filename: labex.png
-  name: Laboratoire d'Excellence Archimède
-  website: http://labex-archimede.univ-amu.fr
-  acronym: LabEx
 - filename: grandluminy.png
   name: Grand Luminy Technopole
   website: http://www.grandluminy.com
   acronym: Grand Luminy
+- filename: amies.png
+  name: Agence pour les mathématiques en interaction avec l'entreprise et la société
+  website: http://www.agence-maths-entreprises.fr
+  acronym: AMIES
 - filename: fruman.jpg
   name: Fédération de Recherche des Unités de Mathématiques de Marseille
   website: http://frumam.cnrs-mrs.fr
