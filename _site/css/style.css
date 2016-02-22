@@ -1,8 +1,9 @@
 /* General classes for page */
 
 body {
-  background-image: url("../images/grid.jpg");
-  font-family: 'Open Sans';
+	background-color: #fff;
+  /*background-image: url("../images/grid.jpg");*/
+  font-family: 'Helvetica Neue', Helvetica, 'Open Sans';
 }
 
 /* Merdes rajoutées par Joël */
@@ -36,6 +37,9 @@ ul.programme blockquote {
 	font-size : 0.9em;
 	margin-left: 1em;
 	border: none;
+}
+span.horaire {
+	color: #000;
 }
 
 a.horaire, a.horaire:hover, a.horaire:visited {
@@ -86,6 +90,7 @@ h3.programme {
 
 .wrapper {
   background-image: url('../images/background/background.jpg');
+  background-position: center;
   height: 600px;
   background-size: cover;
   padding-top: 150px;
