@@ -10,6 +10,10 @@
   name: Institut de Mathématiques de Marseille
   website: https://www.i2m.univ-amu.fr
   acronym: I2M
+- filename: inria.png
+  name: Institut Nationale de Recherche en Informatique et en Automatique
+  website: http://www.inria.fr
+  acronym: INRIA
 - filename: smai.png
   name: Société des Mathématiques Appliquées et Industrielles
   website: http://smai.emath.fr
@@ -30,6 +34,14 @@
   name: MEP - Sécurité Sociale et mutuelle des étudiants
   website: http://www.mep.fr
   acronym: MEP
+- filename: haribo.png
+  name: Haribo
+  website: https://www.haribo.com/frFR/accueil.html
+  acronym: Haribo
+- filename: atelierdeschefs.png
+  name: L'atelier des chefs
+  website: http://www.atelierdeschefs.fr
+  acronym: L'atelier des chefs
 - filename: amu.png
   name: Collège Doctoral Aix-Marseille Université
   website: http://www.adum.fr/as/ed/page.pl?site=CDAMU&page=presentation
@@ -42,6 +54,15 @@
   name: Dunod
   website: http://http://www.dunod.com
   acronym: Dunod
+- filename: marseille.jpg
+  name: Ville de Marseille
+  website: http://www.marseille.fr
+- filename: animath.png
+  name: Animath
+  website: http://www.animath.fr
+- filename: metsens.png
+  name: Metsens
+  website: http://metsens.fr/
 - filename: logo_fsdie.png
   name: Le Fonds de Solidarité et de Développement des Initiatives Etudiantes
   website: http://vie-etudiante.univ-amu.fr/fsdie-social
