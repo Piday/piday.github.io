@@ -6,11 +6,15 @@
   name: Laboratoire d'Excellence Archimède
   website: http://labex-archimede.univ-amu.fr
   acronym: LabEx
+- filename: lsis.png
+  name: Laboratoire des Sciences de l'Information et des Systèmes
+  website: http://www.lsis.org
+  acronym: LSIS
 - filename: lif.gif
   name: Laboratoire d'Informatique Fondamentale de Marseille
   website: http://www.lif.univ-mrs.fr
   acronym: LIF
-- filename: amu.png
+- filename: i2m.png
   name: Institut de Mathématiques de Marseille
   website: https://www.i2m.univ-amu.fr
   acronym: I2M
@@ -22,17 +26,33 @@
   name: Grand Luminy Technopole
   website: http://www.grandluminy.com
   acronym: Grand Luminy
+- filename: amies.png
+  name: Agence pour les mathématiques en interaction avec l'entreprise et la société
+  website: http://www.agence-maths-entreprises.fr
+  acronym: AMIES
+- filename: friiam.jpg
+  name: Fédération de Recherche en Informatique et Interactions d’Aix - Marseille
+  website: http://friiam.cnrs-mrs.fr
+  acronym: FRIIAM
 - filename: fruman.jpg
   name: Fédération de Recherche des Unités de Mathématiques de Marseille
   website: http://frumam.cnrs-mrs.fr
   acronym: FRUMAN
+- filename: cmap.png
+  name: Centre de Mathématiques Appliquées
+  website: http://www.cmapx.polytechnique.fr
+  acronym: CMAP
+- filename: amu.png
+  name: Collège Doctoral Aix-Marseille Université
+  website: http://www.adum.fr/as/ed/page.pl?site=CDAMU
+- filename: crous.png
+  name: Centre Régional des Œuvres Universitaires et Scolaires - Aix-Marseille
+  website: http://www.crous-aix-marseille.fr
+  acronym: CROUS
 - filename: mep.png
   name: MEP - Sécurité Sociale et mutuelle des étudiants
   website: http://www.mep.fr
   acronym: MEP
-- filename: amu.png
-  name: Collège Doctoral Aix-Marseille Université
-  website: http://www.adum.fr/as/ed/page.pl?site=CDAMU&page=presentation
   acronym: College
 - filename: kubii.png
   name: Kubii
