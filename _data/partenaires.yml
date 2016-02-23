@@ -6,6 +6,9 @@
   name: Laboratoire d'Excellence Archimède
   website: http://labex-archimede.univ-amu.fr
   acronym: LabEx
+- filename: logo_fsdie.png
+  name: Le Fonds de Solidarité et de Développement des Initiatives Etudiantes
+  website: http://vie-etudiante.univ-amu.fr/fsdie-social
 - filename: lsis.png
   name: Laboratoire des Sciences de l'Information et des Systèmes
   website: http://www.lsis.org
@@ -62,6 +65,3 @@
   name: Dunod
   website: http://http://www.dunod.com
   acronym: Dunod
-- filename: logo_fsdie.png
-  name: Le Fonds de Solidarité et de Développement des Initiatives Etudiantes
-  website: http://vie-etudiante.univ-amu.fr/fsdie-social
