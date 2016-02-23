@@ -37,10 +37,10 @@
   name: Fédération de Recherche en Informatique et Interactions d’Aix - Marseille
   website: http://friiam.cnrs-mrs.fr
   acronym: FRIIAM
-# - filename: fruman.jpg
-#   name: Fédération de Recherche des Unités de Mathématiques de Marseille
-#   website: http://frumam.cnrs-mrs.fr
-#   acronym: FRUMAN
+- filename: fruman.jpg
+  name: Fédération de Recherche des Unités de Mathématiques de Marseille
+  website: http://frumam.cnrs-mrs.fr
+  acronym: FRUMAN
 - filename: cmap.png
   name: Centre de Mathématiques Appliquées
   website: http://www.cmapx.polytechnique.fr
