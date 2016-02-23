@@ -10,10 +10,10 @@
   name: Institut de Mathématiques de Marseille
   website: https://www.i2m.univ-amu.fr
   acronym: I2M
-- filename: inria.png
-  name: Institut Nationale de Recherche en Informatique et en Automatique
-  website: http://www.inria.fr
-  acronym: INRIA
+# - filename: inria.png
+#   name: Institut Nationale de Recherche en Informatique et en Automatique
+#   website: http://www.inria.fr
+#   acronym: INRIA
 - filename: smai.png
   name: Société des Mathématiques Appliquées et Industrielles
   website: http://smai.emath.fr
