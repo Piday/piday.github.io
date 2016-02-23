@@ -60,9 +60,9 @@
 - filename: animath.png
   name: Animath
   website: http://www.animath.fr
-- filename: metsens.png
-  name: Metsens
-  website: http://metsens.fr/
+# - filename: metsens.png
+#   name: Metsens
+#   website: http://metsens.fr/
 - filename: logo_fsdie.png
   name: Le Fonds de Solidarité et de Développement des Initiatives Etudiantes
   website: http://vie-etudiante.univ-amu.fr/fsdie-social
