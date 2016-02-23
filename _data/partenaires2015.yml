@@ -2,11 +2,18 @@
   name: Ecole Doctorale en Mathématiques et en Informatique de Marseille (ED 184)
   website: http://ed184.lif.univ-mrs.fr/doku.php
   acronym: ED184
+- filename: logo_fsdie.png
+  name: Le Fonds de Solidarité et de Développement des Initiatives Etudiantes
+  website: http://vie-etudiante.univ-amu.fr/fsdie-social
+- filename: labex.png
+  name: Laboratoire d'Excellence Archimède
+  website: http://labex-archimede.univ-amu.fr
+  acronym: LabEx
 - filename: lif.gif
   name: Laboratoire d'Informatique Fondamentale de Marseille
   website: http://www.lif.univ-mrs.fr
   acronym: LIF
-- filename: amu.png
+- filename: i2m.png
   name: Institut de Mathématiques de Marseille
   website: https://www.i2m.univ-amu.fr
   acronym: I2M
@@ -18,10 +25,6 @@
   name: Société des Mathématiques Appliquées et Industrielles
   website: http://smai.emath.fr
   acronym: SMAI
-- filename: labex.png
-  name: Laboratoire d'Excellence Archimède
-  website: http://labex-archimede.univ-amu.fr
-  acronym: LabEx
 - filename: grandluminy.png
   name: Grand Luminy Technopole
   website: http://www.grandluminy.com
@@ -30,39 +33,36 @@
   name: Fédération de Recherche des Unités de Mathématiques de Marseille
   website: http://frumam.cnrs-mrs.fr
   acronym: FRUMAN
-- filename: mep.png
-  name: MEP - Sécurité Sociale et mutuelle des étudiants
-  website: http://www.mep.fr
-  acronym: MEP
-- filename: haribo.png
-  name: Haribo
-  website: https://www.haribo.com/frFR/accueil.html
-  acronym: Haribo
-- filename: atelierdeschefs.png
-  name: L'atelier des chefs
-  website: http://www.atelierdeschefs.fr
-  acronym: L'atelier des chefs
+- filename: animath.png
+  name: Animath
+  website: http://www.animath.fr
 - filename: amu.png
   name: Collège Doctoral Aix-Marseille Université
   website: http://www.adum.fr/as/ed/page.pl?site=CDAMU&page=presentation
   acronym: College
-- filename: kubii.png
-  name: Kubii
-  website: http://www.kubii.fr
-  acronym: Kubii
+- filename: mep.png
+  name: MEP - Sécurité Sociale et mutuelle des étudiants
+  website: http://www.mep.fr
+  acronym: MEP
 - filename: dunod.png
   name: Dunod
   website: http://http://www.dunod.com
   acronym: Dunod
+- filename: atelierdeschefs.png
+  name: L'atelier des chefs
+  website: http://www.atelierdeschefs.fr
+  acronym: L'atelier des chefs
+- filename: kubii.png
+  name: Kubii
+  website: http://www.kubii.fr
+  acronym: Kubii
 - filename: marseille.jpg
   name: Ville de Marseille
   website: http://www.marseille.fr
-- filename: animath.png
-  name: Animath
-  website: http://www.animath.fr
 # - filename: metsens.png
 #   name: Metsens
 #   website: http://metsens.fr/
-- filename: logo_fsdie.png
-  name: Le Fonds de Solidarité et de Développement des Initiatives Etudiantes
-  website: http://vie-etudiante.univ-amu.fr/fsdie-social
+- filename: haribo.png
+  name: Haribo
+  website: https://www.haribo.com/frFR/accueil.html
+  acronym: Haribo
