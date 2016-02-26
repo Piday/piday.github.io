@@ -28,7 +28,36 @@ permalink: /Tartes_/
                 <p>Si vous le souhaitez, les <strong>recettes des tartes</strong> proposées lors du concours seront publiées sur le site internet. Amenez-les en direct ou alors envoyez-les par mail à <a href:"mailto:{{ site.email }}">{{ site.email }}</a>.</p>
     </div>
     <div class="col-sm-6">   
-        
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                {% for tarte in site.data.tartes %}
+                <li data-target="#myCarousel" data-slide-to="{{forloop.index0}}" class="active"></li>
+                {% endfor %}
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                {% for tarte in site.data.tartes %}
+                <div class="item active">
+                    <img src="{{ '/images/tartes' | append tarte.filename}}" alt="{{tarte.name}}">
+                    <div class="carousel-caption">
+                        <p>{{ partenaire.caption}}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Précedente</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Suivante</span>
+            </a>
+        </div> <!-- fin carrousel -->
     </div> <!-- fin col-sm-6 -->
 </div>
 
