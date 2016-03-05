@@ -31,19 +31,19 @@ permalink: /Tartes_/
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                {% for tarte in site.data.tartes %}
-                <li data-target="#myCarousel" data-slide-to="{{forloop.index0}}" class="active"></li>
-                {% endfor %}
+              {% for tarte in site.data.tartes %}
+              <li data-target="#myCarousel" data-slide-to="{{forloop.index0}}" class="active"></li>
+              {% endfor %}
             </ol>
-
+	    
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 {% for tarte in site.data.tartes %}
                 <div class="item active">
-                    <img src="{{ '/images/tartes' | append tarte.filename}}" alt="{{tarte.name}}">
-                    <div class="carousel-caption">
-                        <p>{{ partenaire.caption}}</p>
-                    </div>
+		  <img src="{{ '/images/tartes' | append: tarte.filename}}" alt="{{tarte.name}}">
+		  <div class="carousel-caption">
+                    <p>{{ partenaire.caption}}</p>
+                  </div>
                 </div>
                 {% endfor %}
             </div>
