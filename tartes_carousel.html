@@ -40,7 +40,7 @@ permalink: /Tartes_/
             <div class="carousel-inner" role="listbox">
                 {% for tarte in site.data.tartes %}
                 <div class="item active">
-		  <img src="{{ '/images/tartes' | append: tarte.filename}}" alt="{{tarte.name}}">
+		  <img src="{{ '/images/tartes/' | append: tarte.filename}}" alt="{{tarte.name}}">
 		  <div class="carousel-caption">
                     <p>{{ partenaire.caption}}</p>
                   </div>
