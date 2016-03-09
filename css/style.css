@@ -171,6 +171,7 @@ h3.programme {
 }
 .btn-pie:hover {
     background-color: #EEBB00;
+    color: #885500;
 }
 
 /* How to override the default Bootstrap navbar */
