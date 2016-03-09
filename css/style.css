@@ -166,6 +166,7 @@ h3.programme {
     text-wrap: normal;
     width: 8em;
     height: 8em;
+    margin: 1em;
     padding: 3em 0.5em;
     border-radius: 50%;
 }
