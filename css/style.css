@@ -158,11 +158,10 @@ h3.programme {
 .btn-pie {
     background-color: #FFCC00;
     border-color: #FF9900;
+    border-width: 0.2em;
     font-size: 0.8em;
     color: #996600;
-    width: 6em;
-    height: 2em;
-    padding: 3em;
+    padding: 10%;
     border-radius: 50%;
 }
 .btn-pie:hover {
