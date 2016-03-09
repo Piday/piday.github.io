@@ -155,7 +155,7 @@ h3.programme {
   border-color: #16a085;
 }
 
-.pie-btn {
+.btn-pie {
     background-color: #FFCC00;
     border-color: #FF9900;
     font-size: 0.8em;
@@ -163,6 +163,9 @@ h3.programme {
     width: 6em;
     padding: 3em;
     border-radius: 3em;
+}
+.btn-pie:hover {
+    background-color: #EEBB00;
 }
 
 /* How to override the default Bootstrap navbar */
