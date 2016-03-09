@@ -153,6 +153,11 @@ h3.programme {
 .btn-primary:hover {
   background-color: #16a085;
   border-color: #16a085;
+  margin : 1em;
+}
+
+.btn-primary:first-child {
+    margin-top: 5em;
 }
 
 .btn-pie {
