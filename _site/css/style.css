@@ -148,11 +148,36 @@ h3.programme {
 .btn-primary {
   background-color: #1abc9c;
   border-color: #1abc9c;
+  margin : 1em;
 }
 
 .btn-primary:hover {
   background-color: #16a085;
   border-color: #16a085;
+}
+
+.btn-primary:first-of-type {
+    margin-top: 5em;
+}
+
+.btn-pie {
+    background-color: #FFCC00;
+    /*border-color: #FF9900;
+    border-width: 0.2em;*/
+    font-size: 0.5em;
+    color: #996600;
+    /*text-align:center;
+    vertical-align: middle;*/
+    text-wrap: normal;
+    width: 8em;
+    height: 8em;
+    margin: 1em;
+    padding: 3em 0.5em;
+    border-radius: 50%;
+}
+.btn-pie:hover {
+    background-color: #EEBB00;
+    color: #885500;
 }
 
 /* How to override the default Bootstrap navbar */
