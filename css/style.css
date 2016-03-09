@@ -148,7 +148,7 @@ h3.programme {
 .btn-primary {
   background-color: #1abc9c;
   border-color: #1abc9c;
-  margin : 0.5mm;
+  /*margin : 0.5mm;*/
 }
 
 .btn-group {
