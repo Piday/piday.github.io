@@ -161,8 +161,9 @@ h3.programme {
     font-size: 0.8em;
     color: #996600;
     width: 6em;
+    height: 2em;
     padding: 3em;
-    border-radius: 3em;
+    border-radius: 50%;
 }
 .btn-pie:hover {
     background-color: #EEBB00;
