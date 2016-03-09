@@ -148,12 +148,12 @@ h3.programme {
 .btn-primary {
   background-color: #1abc9c;
   border-color: #1abc9c;
+  margin : 1em;
 }
 
 .btn-primary:hover {
   background-color: #16a085;
   border-color: #16a085;
-  margin : 1em;
 }
 
 .btn-primary:first-of-type {
