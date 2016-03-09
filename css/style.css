@@ -156,7 +156,7 @@ h3.programme {
   margin : 1em;
 }
 
-.btn-primary:first-child {
+.btn-primary:first-of-type {
     margin-top: 5em;
 }
 
