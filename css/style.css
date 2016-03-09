@@ -159,8 +159,10 @@ h3.programme {
     background-color: #FFCC00;
     border-color: #FF9900;
     border-width: 0.2em;
-    font-size: 0.8em;
+    font-size: 0.6em;
     color: #996600;
+    width: 6em;
+    height: 6em;
     border-radius: 50%;
     display: block;
 }
