@@ -148,18 +148,22 @@ h3.programme {
 .btn-primary {
   background-color: #1abc9c;
   border-color: #1abc9c;
-  margin : 1em;
+  margin : 0.1em;
+}
+
+.btn-group {
+  margin-top: 5em;
 }
 
 .btn-primary:hover {
   background-color: #16a085;
   border-color: #16a085;
 }
-
+/*
 .btn-primary:first-of-type {
     margin-top: 5em;
 }
-
+*/
 .btn-pie {
     background-color: #FFCC00;
     /*border-color: #FF9900;
