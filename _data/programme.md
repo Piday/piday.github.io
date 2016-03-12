@@ -33,7 +33,7 @@ Responsables : Joël Cohen, Guillaume Geoffroy, Annamaria Iezzi
 
 Collaborateurs : Elena Berardini, Emilie Delnieppe, Lamia Gaoua, Marianna Girlando, Lionel Marty, Paolo Pistone, Rémi Tesson
 
-Benevoles : Camille Baudoin, Zied Bouraoui, Benoît Cadorel, Irene de los Reyes, Andrea Gagna, Alejandro Giangreco, Ante Ivčević, Paolo Milanesi, Hugo Raguet, Diogo Ribeiro, Alberto Valdeolivas, Jordi Zamareño Beas
+Benevoles : Camille Baudoin, Zied Bouraoui, Benoît Cadorel, Irene de los Reyes, Andrea Gagna, Alejandro Giangreco, Ante Ivčević, Paolo Milanesi, Hugo Raguet, Diogo Ribeiro, Florent Ulpat-Rovetta, Alberto Valdeolivas, Jordi Zamareño Beas
 
 ----
 
