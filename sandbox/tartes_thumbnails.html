@@ -84,10 +84,12 @@ function(){
 
 $('.thumbnail').hover(
   function(){
-    $(this).find('.caption').fadeIn(250);
+    //$(this).find('.caption').fadeIn(250);
+    $(this).find('.caption').css('opacity','1');
   },
   function(){
-    $(this).find('.caption').fadeOut(250);
+    //$(this).find('.caption').fadeOut(250);
+    $(this).find('.caption').css('opacity','0');
   }
 );
 </script>
