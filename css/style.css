@@ -208,21 +208,19 @@ h3.programme {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/*
-.thumbnail {
+
+.thumbnail-partenaires {
   display: block;
   margin-bottom: 20px;
   height: 220px;
   text-align: center;
-*/
   /* écrasement du style préexistant */
-/*
   background-color: transparent;
   border : 0;
 }
 
 
-.thumbnail>img, .thumbnail a>img {
+.thumbnail-partenaires>img, .thumbnail-partenaires a>img {
   display: block;
   max-height:120px;
   max-width: 95%;
@@ -230,7 +228,7 @@ h3.programme {
   margin-left: auto;
 }
 
-.thumbnail h2 {
+.thumbnail-partenaires h2 {
   background: rgba(0, 0, 0, .4);
   display: inline-block;
   padding: 0.2em;
@@ -239,7 +237,7 @@ h3.programme {
   letter-spacing: 2px;
   margin-bottom: 2em;
 }
-*/
+
 
 .carousel-control.left,.carousel-control.right{
   background-image:none;
@@ -250,12 +248,12 @@ body {
   padding-top: 50px;
 }
  
-.thumbnail {
+.thumbnail-tartes {
     position:relative;
     overflow:hidden;
 }
 
-.thumbnail .caption {
+.thumbnail-tartes .caption {
     position:absolute;
     top:0;
     right:0;

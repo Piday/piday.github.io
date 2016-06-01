@@ -18,7 +18,7 @@ permalink: /Sandbox/Tartes/
     <div class="row">
       {% for tarte in site.data.tartes-2016 %}
       <div class="col-lg-3 col-sm-4 col-xs-6">
-	<div class="thumbnail">
+	<div class="thumbnail thumbnail-tartes">
 	  <div class="caption">
             <h4>{{ tarte.name }}</h4>
             <p>{{ tarte.prize }}</p>
@@ -49,7 +49,7 @@ permalink: /Sandbox/Tartes/
 	    <div class="item" title="{{ tarte.name }}">
 	      {% endif %}
 	      <p>{{ tarte.prize }}</p>
-              <img class="img-responsive thumbnail" src="{{ '/images/tartes-2016/' | append: tarte.id | append: '.jpg' }}" alt="{{tarte.name}}">
+              <img class="img-responsive thumbnail thumbnail-tartes" src="{{ '/images/tartes-2016/' | append: tarte.id | append: '.jpg' }}" alt="{{tarte.name}}">
 	    </div>
 	    {% endfor %}
 	    

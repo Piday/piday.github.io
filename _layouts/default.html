@@ -33,8 +33,10 @@
         <meta name="twitter:image" content="http://www.piday.fr/images/pi-chapeau.png">
 
 
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+<!--    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"> -->
+        <link href="{{ "/libraries/bootstrap-3.2.0/css/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+<!--    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" type="text/css" href="{{ "/libraries/font-awesome-4.6.3/css/font-awesome.min.css" | prepend: site.baseurl }}">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="{{ "/css/style.css" | prepend: site.baseurl }}">
   </head>
@@ -89,8 +91,10 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+    <script src="{{ '/libraries/jquery-1.11.1/jquery.min.js' | prepend: site.baseurl }}"></script>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
+    <script src="{{ '/libraries/bootstrap-3.2.0/js/bootstrap.min.js' | prepend: site.baseurl }}"></script>
 
 
         {{ content }}

@@ -8,17 +8,17 @@ permalink: /Partenaires/
 <div class="container">
   <div class="row text-center">
     <div class="col-xs-12">
-		<div class="catchphrase">
+		<div class="catchphrase,">
 		<p>La journée de π est organisée par l'association Pi Day, avec le soutien de nos partenaires que nous <strong>remercions</strong> !</p>
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row" style="margin-top: 1.5cm">
 
     {% for partenaire in site.data.partenaires %}
 
     <div class="col-sm-4">
-      <div class="thumbnail">
+      <div class="thumbnail thumbnail-partenaires">
         <a href="{{ partenaire.website }}">
 			<img src="{{ "/logo-partenaire/" | prepend: site.baseurl | append: partenaire.filename }}" alt="{{ partenaire.acronym }}">
 		</a>
