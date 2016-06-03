@@ -5,32 +5,37 @@ permalink: /Tartes/Photos
 redirect_from: /2016/Tartes/Photos/index.html
 ---
 <div class="vertical-spacer"></div>
+
 <div class="container">
   <div class="row">
-
     <div class="text-center">
       <div class="col-sm-12">
-	<div class="catchphrase">
-          <p>Les tartes de cette année : un grand bravo à tous les participants !</p></div>
+	      <div class="catchphrase">
+          <p>Les tartes de cette année : un grand bravo à tous les participants !</p>
+        </div>
       </div>
     </div>
+  </div>
 
-    <div class="row">
-      {% for tarte in site.data.tartes-2016 %}
+  <div class="vertical-spacer"></div>
+
+  <div class="row">
+    {% for tarte in site.data.tartes-2016 %}
       <div class="col-lg-3 col-sm-4 col-xs-6">
-	<div class="thumbnail thumbnail-tartes">
-	  <div class="caption">
+	      <div class="thumbnail thumbnail-tartes">
+          <div class="caption">
             <h4>{{ tarte.name }}</h4>
             <p>{{ tarte.prize }}</p>
           </div>
-	  <a title="{{ tarte.name }}" href="#"><img class="img-responsive carousel-thumbnail" src="{{ '/images/tartes-2016/thumbnails/thumbnail-' | append: tarte.id | append: '.jpg'}}" alt="{{tarte.name}}"></a>
-	</div>
+          <a title="{{ tarte.name }}" href="#">
+            <img class="img-responsive carousel-thumbnail" src="{{ '/images/tartes-2016/thumbnails/thumbnail-' | append: tarte.id | append: '.jpg'}}" alt="{{tarte.name}}">
+          </a>
+        </div>
       </div>
-      {% endfor %}
-    </div>
-
+    {% endfor %}
   </div>
 </div>
+
 <div class="modal" id="myModal" role="dialog" tabindex="-1">
   <div class="modal-dialog">
   <div class="modal-content">
@@ -58,11 +63,6 @@ redirect_from: /2016/Tartes/Photos/index.html
           <a class="carousel-control right" href="#modalCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
         </div>
       </div>
-      <!--
-      <div class="modal-footer">
-	<button class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-      -->
     </div>
   </div>
 </div>
