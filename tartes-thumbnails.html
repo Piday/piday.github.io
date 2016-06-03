@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Pi Day - Concours de tartes
-permalink: /Sandbox/Tartes/
+permalink: /Tartes/Photos
+redirect_from: /2016/Tartes/Photos/index.html
 ---
 <div class="vertical-spacer"></div>
 <div class="container">
@@ -10,8 +11,7 @@ permalink: /Sandbox/Tartes/
     <div class="text-center">
       <div class="col-sm-12">
 	<div class="catchphrase">
-          <p>Rendez-vous à Marseille le lundi 14 mars 2016 pour une inoubliable <strong>soirée-spectacle mathématique</strong>.</p>
-	</div>
+          <p>Les tartes de cette année : un grand bravo à tous les participants !</p></div>
       </div>
     </div>
 
@@ -41,7 +41,7 @@ permalink: /Sandbox/Tartes/
     <div class="modal-body">
       <div id="modalCarousel" class="carousel">
           <div class="carousel-inner">
-	    
+
 	    {% for tarte in site.data.tartes-2016 %}
 	    {% if forloop.index0 == 0 %}
 	    <div class="item active" title="{{ tarte.name }}">
@@ -52,7 +52,7 @@ permalink: /Sandbox/Tartes/
               <img class="img-responsive thumbnail thumbnail-tartes" src="{{ '/images/tartes-2016/' | append: tarte.id | append: '.jpg' }}" alt="{{tarte.name}}">
 	    </div>
 	    {% endfor %}
-	    
+
           </div>
           <a class="carousel-control left" href="#modalCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
           <a class="carousel-control right" href="#modalCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
