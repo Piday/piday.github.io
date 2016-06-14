@@ -7,6 +7,9 @@
 - id : "30"
   name : Tarte au πtron
   prize : Troisième π du jury
+- id : "20"
+  name : L'archimédienne
+  prize : La plus thématique
 - id : "24"
   name : Monte carlo
   prize : La plus mathématique
@@ -16,9 +19,6 @@
 - id : "15"
   name : Apple π
   prize : Troisième prix mathématique
-- id : "20"
-  name : L'archimédienne
-  prize : La plus thématique
 - id : "01"
   name : π tarte à la diable
   prize : La plus belle
