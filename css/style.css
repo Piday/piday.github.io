@@ -100,13 +100,13 @@ h3.programme {
   background-size: contain;
   margin: 0;
   padding: 0;
-  padding-top: 3em;
+  padding-top: 4em;
   text-align: center;
   color: white;
 }
 
 .lead h1 {
-  font-size: 5em;
+  font-size: 4em;
   text-shadow: 0 0 0.5em rgba(0, 0, 0, .8);
   margin : 0;
   padding : 0;
@@ -119,7 +119,7 @@ h3.programme {
     margin: 0;
     padding: 0;
     color: #999;
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 200;
 }
 
@@ -129,7 +129,7 @@ h3.programme {
   font-weight: 100;
   display: inline-block;
   padding: 0;
-  font-size: 1.2em;
+  font-size: 1em;
   letter-spacing: .2em;
   margin-top: .5em;
   margin-bottom: 2em;
