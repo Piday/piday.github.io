@@ -90,19 +90,22 @@ h3.programme {
 /* Lead with big image */
 
 .wrapper {
-  background-image: url('../images/background/pi_geometrique.png'); /* cette ligne sera ignorée si le svg est supporté */
-  background-image: url('../images/background/pi_geometrique.svg');
-  background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
   background-color: #000;
-  background-position: center;
   height: 42em;
-  background-size: contain;
   margin: 0;
   padding: 0;
   padding-top: 4em;
   text-align: center;
   color: white;
+}
+#logo {
+    height: 20em;
+    background-image: url('../images/background/pi_geometrique.png'); /* cette ligne sera ignorée si le svg est supporté */
+    background-image: url('../images/background/pi_geometrique.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /*background-attachment: fixed;*/
 }
 
 .lead h1 {
