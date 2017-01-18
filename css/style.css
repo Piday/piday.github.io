@@ -95,9 +95,10 @@ h3.programme {
   /*background-attachment: fixed;*/
   background-color: #000;
   background-position: center;
-  height: 40em;
+  height: 42em;
   background-size: contain;
-  padding-top: 2em;
+  padding: 0;
+  /*padding-top: 2em;*/
   text-align: center;
   color: white;
 }
