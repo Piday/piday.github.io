@@ -89,6 +89,7 @@ h3.programme {
 /* Lead with big image */
 
 .wrapper {
+  background-image: url('../images/background/pi_geometrique.png'); /* cette ligne sera ignorée si le svg est supporté */
   background-image: url('../images/background/pi_geometrique.svg');
   background-repeat: no-repeat;
   background-color: #000;
@@ -96,7 +97,7 @@ h3.programme {
 /*  background-attachment: fixed; */
   height: 40em;
   background-size: contain;
-  padding-top: 10em;
+  padding-top: 3em;
   text-align: center;
   color: white;
 }
