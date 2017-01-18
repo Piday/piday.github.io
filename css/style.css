@@ -99,7 +99,7 @@ h3.programme {
   color: white;
 }
 #logo {
-    height: 20em;
+    height: 15em;
     background-image: url('../images/background/pi_geometrique.png'); /* cette ligne sera ignorée si le svg est supporté */
     background-image: url('../images/background/pi_geometrique.svg');
     background-repeat: no-repeat;
