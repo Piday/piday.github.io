@@ -92,7 +92,7 @@ h3.programme {
 .wrapper {
   background-image: url('../images/background/pi_geometrique.png'); /* cette ligne sera ignorée si le svg est supporté */
   background-image: url('../images/background/pi_geometrique.svg');
-  /*background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
   /*background-attachment: fixed;*/
   background-color: #000;
   background-position: center;
