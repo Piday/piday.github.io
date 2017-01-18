@@ -89,11 +89,12 @@ h3.programme {
 /* Lead with big image */
 
 .wrapper {
-  background-image: url('../images/background/background.jpg');
+  background-image: url('../images/background/pi_geometrique.svg');
+  background-color: #000;
   background-position: center;
 /*  background-attachment: fixed; */
   height: 40em;
-  background-size: cover;
+  background-size: contain;
   padding-top: 10em;
   text-align: center;
   color: white;
