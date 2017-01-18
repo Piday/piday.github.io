@@ -92,12 +92,12 @@ h3.programme {
   background-image: url('../images/background/pi_geometrique.png'); /* cette ligne sera ignorée si le svg est supporté */
   background-image: url('../images/background/pi_geometrique.svg');
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-color: #000;
   background-position: center;
-/*  background-attachment: fixed; */
   height: 40em;
   background-size: contain;
-  padding-top: 3em;
+  padding-top: 2em;
   text-align: center;
   color: white;
 }
@@ -110,7 +110,15 @@ h3.programme {
   font-weight: normal;
 }
 
-.lead h2 {
+.lead h2{
+    font-weight: 100;
+    color: #333;
+    text-shadow: 0 0 0.5em rgba(0, 0, 0, .8);
+    margin: 0;
+    padding: 0;
+}
+
+.lead h3 {
   background: rgba(0, 0, 0, .4);
   display: inline-block;
   padding: 0;
