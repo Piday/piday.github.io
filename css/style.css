@@ -118,14 +118,13 @@ h3.programme {
     text-shadow: 0 0 0.5em rgba(0, 0, 0, .8);
     margin: 0;
     padding: 0;
-    color: #999;
+    color: #666;
     font-size: 1.6em;
     font-weight: 200;
 }
 
 .lead h3 {
   background: rgba(0, 0, 0, .4);
-  color: #666;
   font-weight: 100;
   display: inline-block;
   padding: 0;
