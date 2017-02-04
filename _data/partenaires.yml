@@ -33,10 +33,10 @@
   name: Fondation Mathématiques Jacques Hadamard
   website: https://www.fondation-hadamard.fr/
   acronym: FMJH
-- filename: univ-lyon.png
-  name: Université de Lyon
-  website: http://www.universite-lyon.fr/
-  acronym: Univ-Lyon  
+- filename: univ-lyon1.png
+  name: Université de Lyon 1
+  website: http://www.univ-lyon1.fr/
+  acronym: Université Claude Bernard Lyon 1
 - filename: i2m.png
   name: Institut de Mathématiques de Marseille
   website: https://www.i2m.univ-amu.fr
@@ -57,7 +57,7 @@
   name: Laboratoire d'Informatique Fondamentale de Marseille
   website: http://www.lif.univ-mrs.fr
   acronym: LIF
-- filename: umpa.jpg
+- filename: umpa.png
   name: Unité de Mathématiques Pures et Appliquées
   website: http://www.umpa.ens-lyon.fr/
   acronym: UMPA
