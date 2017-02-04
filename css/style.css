@@ -239,6 +239,8 @@ h3.programme {
 }
 
 
+
+
 .thumbnail-partenaires>img, .thumbnail-partenaires a>img {
   display: block;
   max-height:120px;
@@ -246,6 +248,7 @@ h3.programme {
   margin-right: auto;
   margin-left: auto;
 }
+
 
 .thumbnail-partenaires h2 {
   background: rgba(0, 0, 0, .4);
@@ -256,6 +259,8 @@ h3.programme {
   letter-spacing: 2px;
   margin-bottom: 2em;
 }
+
+
 
 
 .carousel-control.left,.carousel-control.right{
