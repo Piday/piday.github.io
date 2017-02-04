@@ -60,7 +60,10 @@ h3.programme {
 	padding : 0;
     margin: 0;
 }
-
+.theatre a {
+    color: #999;
+    text-decoration: none;
+}
 
 /* Footer */
 
