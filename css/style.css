@@ -61,6 +61,10 @@ h3.programme {
     margin: 0;
 }
 
+.theatre a {
+    color: #999;
+    text-decoration: none;
+}
 
 /* Footer */
 
