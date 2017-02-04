@@ -2,13 +2,17 @@
   name: Ecole Doctorale en Mathématiques et en Informatique de Marseille (ED 184)
   website: http://ed184.lif.univ-mrs.fr/doku.php
   acronym: ED184
-- filename: fsdie-vieux.png
-  name: Le Fonds de Solidarité et de Développement des Initiatives Etudiantes
-  website: http://vie-etudiante.univ-amu.fr/fsdie-social
 - filename: labex.png
   name: Laboratoire d'Excellence Archimède
   website: http://labex-archimede.univ-amu.fr
   acronym: LabEx
+- filename: fsdie-vieux.png
+  name: Le Fonds de Solidarité et de Développement des Initiatives Etudiantes
+  website: http://vie-etudiante.univ-amu.fr/fsdie-social
+- filename: lsis.png
+  name: Laboratoire des Sciences de l'Information et des Systèmes
+  website: http://www.lsis.org
+  acronym: LSIS
 - filename: lif.gif
   name: Laboratoire d'Informatique Fondamentale de Marseille
   website: http://www.lif.univ-mrs.fr
@@ -17,10 +21,6 @@
   name: Institut de Mathématiques de Marseille
   website: https://www.i2m.univ-amu.fr
   acronym: I2M
-# - filename: inria.png
-#   name: Institut Nationale de Recherche en Informatique et en Automatique
-#   website: http://www.inria.fr
-#   acronym: INRIA
 - filename: smai.png
   name: Société des Mathématiques Appliquées et Industrielles
   website: http://smai.emath.fr
@@ -29,40 +29,43 @@
   name: Grand Luminy Technopole
   website: http://www.grandluminy.com
   acronym: Grand Luminy
+- filename: amies.png
+  name: Agence pour les mathématiques en interaction avec l'entreprise et la société
+  website: http://www.agence-maths-entreprises.fr
+  acronym: AMIES
+- filename: friiam.png
+  name: Fédération de Recherche en Informatique et Interactions d’Aix - Marseille
+  website: http://friiam.cnrs-mrs.fr
+  acronym: FRIIAM
 - filename: fruman.jpg
   name: Fédération de Recherche des Unités de Mathématiques de Marseille
   website: http://frumam.cnrs-mrs.fr
   acronym: FRUMAN
-- filename: animath.png
-  name: Animath
-  website: http://www.animath.fr
+- filename: cmap.png
+  name: Centre de Mathématiques Appliquées
+  website: http://www.cmapx.polytechnique.fr
+  acronym: CMAP
+- filename: cnrs.png
+  name: AudiMath (Centre National de la Recherche Scientifique)
+  website: http://audimath.math.cnrs.fr
+  acronym: CNRS
 - filename: amu.png
   name: Collège Doctoral Aix-Marseille Université
-  website: http://www.adum.fr/as/ed/page.pl?site=CDAMU&page=presentation
-  acronym: College
+  website: http://www.adum.fr/as/ed/page.pl?site=CDAMU
+- filename: crous.png
+  name: Centre Régional des Œuvres Universitaires et Scolaires - Aix-Marseille
+  website: http://www.crous-aix-marseille.fr
+  acronym: CROUS
 - filename: mep.png
   name: MEP - Sécurité Sociale et mutuelle des étudiants
   website: http://www.mep.fr
   acronym: MEP
-- filename: dunod.png
-  name: Dunod
-  website: http://http://www.dunod.com
-  acronym: Dunod
-- filename: atelierdeschefs.png
-  name: L'atelier des chefs
-  website: http://www.atelierdeschefs.fr
-  acronym: L'atelier des chefs
+  acronym: College
 - filename: kubii.png
   name: Kubii
   website: http://www.kubii.fr
   acronym: Kubii
-- filename: marseille.jpg
-  name: Ville de Marseille
-  website: http://www.marseille.fr
-# - filename: metsens.png
-#   name: Metsens
-#   website: http://metsens.fr/
-- filename: haribo.png
-  name: Haribo
-  website: https://www.haribo.com/frFR/accueil.html
-  acronym: Haribo
+- filename: dunod.png
+  name: Dunod
+  website: http://www.dunod.com
+  acronym: Dunod
