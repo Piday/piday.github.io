@@ -125,6 +125,12 @@ h3.programme {
   line-height: 1em;
   font-weight: normal;
 }
+@media screen and (max-width:25em) {
+    /* Pour que le titre apparaisse sur une ligne sur les mobiles */
+    .lead h1 {
+	font-size: 3em;
+    }
+}
 
 .lead h2{
     /*text-shadow: 0 0 0.5em rgba(0, 0, 0, .8);*/
