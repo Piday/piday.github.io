@@ -97,7 +97,7 @@ h3.programme {
   height: 42em;
   margin: 0;
   padding: 0;
-  padding-top: 4em;
+  padding-top: 5em;
   text-align: center;
   color: white;
 }
@@ -109,6 +109,12 @@ h3.programme {
     background-position: center;
     background-size: contain;
     /*background-attachment: fixed;*/
+}
+@media screen and (orientation:portrait) {
+    /* Pour que lo logo apparaisse en entier sur les mobiles */
+    .wrapper {
+	padding-top: 4em;
+    }
 }
 
 .lead h1 {
@@ -272,7 +278,7 @@ h3.programme {
 }
 
 body {
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
  
 .thumbnail-tartes {
