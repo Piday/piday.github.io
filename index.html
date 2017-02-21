@@ -8,7 +8,12 @@ title: La tournée de Pi
     <h1>Tournée de <span style="font-family: 'Didot', 'Times New Roman', 'Baskerville', Times; color: #0df; font-size: 120%">π</span></h1>
     <h2>Spectacle musical mathématique</h2>
 	<h3>14, 16, 19 mars 2017</h3>
-    <div id="logo"></div>
+    <div id="logo"
+	 onclick="var isMobile = window.matchMedia('only screen and (max-width: 760px)');
+		  $('html,body').animate({
+		  scrollTop: $('.haut-dates-main').offset().top},
+		  'slow');">
+    </div>
     <!-- <p> -->
       <!-- Button trigger modal -->
       <!-- <div class="btn-group">
@@ -30,7 +35,7 @@ title: La tournée de Pi
   </div>
 </div>
 
-<div class="vertical-spacer"></div>
+<div class="vertical-spacer haut-dates-main"></div>
 
 <div class="container">
   <div class="row text-center">
